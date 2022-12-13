@@ -1,0 +1,160 @@
+.center {
+  text-align: center;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  width: 100%;
+}
+
+/* Put this around everything but the sidebar */
+.pageContent {
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* That cool thing up top */
+.pageTitle {
+  background-attachment: fixed;
+  font-size: x-large;
+  background: url("mountains.jpg");
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -8px;
+  margin-left: 8px;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.pageTitle h1 {
+  padding-left: 25px;
+}
+
+/* Flex boxes were a good idea */
+.sidenav {
+  height: 100%;
+  width: 230px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding: 30px;
+  padding-bottom: 100%;
+  margin: -8px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #04AA6D;
+}
+
+.profilePic {
+  width: 120;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* Main text area */
+.main {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+
+/* Holds the boxes for the resume and projects */
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(230, 230, 230);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* This is for the section titles in the resume */
+.boxContainer h2 {
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-bottom: #111;
+}
+
+/* Just resume boxes */
+.box {
+  display: block;
+  width: 30%;
+  height: auto;
+  background-color: rgba(75, 158, 181, 0.745);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+/* These are the boxes for the projects. Smaller and have a background */
+.boxProject {
+  display: block;
+  width: 32%;
+  height: 300px;
+  background-image: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Get a title with a background */
+.boxProject h2 {
+  background-color: #afafaf;
+  width: 100%;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.boxGallery {
+  display: block;
+  width: auto;
+  height: 300px;
+  background-image: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.input2 {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 550px; 
+}
+
+
+.button {
+background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+

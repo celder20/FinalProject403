@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div>
+    <form name="lingoForm" method="post" action={% url 'updateTerm' %}>
+        {% csrf_token %}
+        <br>
+        <input type="hidden" class='input2' id="lingoid" name="lingoid" value="{{ record.lingoid }}">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="term">Term: </label><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class='input2' name="term" value="{{ record.term }}">
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;<label for="description">Description: </label><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;<input class='input2' type="text" name="description" value="{{ record.description }}">
+        <br><br>
+
+        &nbsp;&nbsp;&nbsp;<button type="submit" class="button">Update</button>
+
+    </form>
+</div>
+
+{% endblock %}

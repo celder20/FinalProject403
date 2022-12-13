@@ -1,0 +1,209 @@
+
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Quarterback”, “Abbreviation QB\nSide Offense\n
+The quarterback calls the beginning of a play and acts as the leader of the squad. They grab the ball from the center player and either pass the ball or run with it (referred to as ‘‘rushing’’).” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Offensive Linemen”, “Abbreviation OL\nSide Offense\n
+The offensive lineman makes up the wall of defense that protects the quarterback during a play. There must be 5 offensive lineman at any play. From the quarterback’’s point of view, those five are the left tackle, left guard, center, right guard and right tackle.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Running Back”, “Abbreviation RB\nSide Offense\n
+The running back’’s primary job is to take the ball from the quarterback and run with it on rushing plays. Running backs also block for the quarterback on some passing plays and may run out to catch a pass. They’’re fast players who are powerful enough to shrug off linebackers who try to tackle them, but running backs need more than just speed.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Fullback”, “Abbreviation FB\nSide Offense\n
+A fullback is another kind of running back — a kind of a mix between an offensive lineman and a running back. They usually line up behind the quarterback and in front of the tailback and are often tasked with blocking for the running back, who is typically the primary ball carrier. For this reason, fullbacks are sometimes called ‘‘blocking backs.’’ They are allowed to carry the ball, though, and sometimes do.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Tight End”, “Abbreviation TE\nSide Offense\n
+The tight end usually lines up right next to the offensive line — that’’s the ‘‘tight’’ part. The ‘‘end’’ comes from the fact that they stand by the vertical end of the field when lining up. These players are usually bigger than wide receivers but smaller than offensive linemen, and their job is a hybrid of the two.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Wide Receiver”, “Abbreviation WR\nSide Defense\n
+Wide receivers line up at or near the line of scrimmage (the line where the ball is before the play), outside of the offensive line and the tight end. Being on the edges is the ‘‘wide’’ part of their position’’s name. They typically are tasked with catching the ball, but may on occasion run the ball or block defenders on running plays.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Defensive Linemen”, “Abbreviation DL\nSide Defense\n
+These larger players line up opposite to the offensive lineman on the line of scrimmage.There are normally three or four defensive linemen on the field, and they tend to put one or both hands on the ground before the play.Unlike on the offensive line, where the outside players are the tackle, the defensive linemen in the middle are called defensive tackles (DTs). The defensive linemen on the outside are called defensive ends (DEs).” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Linebacker”, “Abbreviation LB\nSide Defense\n
+Linebackers play behind the defensive line. If the defense has three defensive linemen, there are usually four linebackers. If there are four defensive linemen, there are usually three linebackers. Linebackers are usually smaller and faster than defensive linemen.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Cornerback ”, “Abbreviation CB\nSide Defense\n
+Cornerbacks and safeties are called the ‘‘defensive backfield,’’ or ‘‘defensive backs,’’ because they play in the back of the defense. Cornerbacks are lined up on the outside of the defense and are usually tasked with covering the offense’’s best receivers.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Safety”, “Abbreviation S\nSide Defense\n
+Safeties are the last line of defense and there are usually two of them. They usually play all the way in the back of the defense and are responsible for making sure no offensive player gets past everyone else on the defense. Safeties are usually not as fast as cornerbacks, but they’’re often better at reading and patrolling larger areas of the field.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Kicker”, “Abbreviation K\nSide Special Teams\n
+Kickers kick the ball off the ground on a kickoff, field goal and point after touchdown (PAT), also called the ‘‘extra point.’’ Usually they make the PAT, unless you’’re Jake Oldroyd.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Punter”, “Abbreviation P\nSide Special Teams\n
+On fourth down, an offense sometimes won’’t try to get the first down, because if they fail, the other team will get the ball right where the offense was stopped. Instead, the coach may call on the punter. This player can punt the ball to the other team, hanging it high in the air to try to keep the opposing team farther away from the end zone.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Kick Returner”, “Abbreviation KR\nSideSpecial Teams\n
+When the kicker boots a kickoff, the kick returner catches it and runs toward the opposing team’’s end zone. These players are usually speedy and are often also wide receivers or defensive backs.” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Punt Returner”, “Abbreviation PR\nSideSpecial Teams\n
+The punt returner is meant to catch the ball after the opposing team’’s kicker punts it across the field. This player may call for a ‘‘fair catch,’’ which means that they will not run forward with the ball because the other team’’s players are going to tackle them right away.\n\nThe punt returner can choose to run forward with the ball; like a kick returner, the PR runs toward the other team’’s end zone. Punt returners are usually as fast as kick returners and will typically play multiple positions on a team (wide receivers or defensive backs are common examples).” 
+);
+
+INSERT INTO footballlingo(term, description)
+VALUES (“Long Snapper”, “Abbreviation LS\nSideSpecial Teams\n
+The long snapper is a special kind of center who snaps the ball on punts and kicks. They snap the ball between their legs to the punter on a punt or to the player holding the ball for the kicker on field goals and PATs. They usually are required to throw the ball far backwards, which is where the term ‘‘long’’ comes from, and the action of throwing the ball backwards is called a ‘‘snap’’, hence someone who performs a ‘‘snap’’ is known as a ‘‘snapper’’.” 
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+****************************FORMAT ********************************
+
+Quarterback 
+
+“Abbreviation QB\n
+Side Offense\n
+The quarterback calls the beginning of a play and acts as the leader of the squad. They grab the ball from the center player and either pass the ball or run with it (referred to as ‘’rushing’’).”
+
+
+Offensive Linemen
+
+Abbreviation OL\n
+Side Offense\n
+The offensive lineman makes up the wall of defense that protects the quarterback during a play. There must be 5 offensive lineman at any play. From the quarterback’’s point of view, those five are the left tackle, left guard, center, right guard and right tackle.
+
+Running Back 
+
+Abbreviation RB\n 
+Side Offense\n
+The running back’’s primary job is to take the ball from the quarterback and run with it on rushing plays. Running backs also block for the quarterback on some passing plays and may run out to catch a pass. They’’re fast players who are powerful enough to shrug off linebackers who try to tackle them, but running backs need more than just speed.
+
+
+Fullback 
+
+Abbreviation FB\n
+Side Offense\n
+A fullback is another kind of running back — a kind of a mix between an offensive lineman and a running back. They usually line up behind the quarterback and in front of the tailback and are often tasked with blocking for the running back, who is typically the primary ball carrier. For this reason, fullbacks are sometimes called ‘‘blocking backs.’’ They are allowed to carry the ball, though, and sometimes do.
+
+
+
+
+
+​​Tight End 
+
+Abbreviation TE\n
+Side Offense\n
+The tight end usually lines up right next to the offensive line — that’’s the ‘‘tight’’ part. The ‘‘end’’ comes from the fact that they stand by the vertical end of the field when lining up. These players are usually bigger than wide receivers but smaller than offensive linemen, and their job is a hybrid of the two.
+
+Wide Receiver 
+Side Offense\n
+Abbreviation WR\n
+Wide receivers line up at or near the line of scrimmage (the line where the ball is before the play), outside of the offensive line and the tight end. Being on the edges is the ‘‘wide’’ part of their position’’s name. They typically are tasked with catching the ball, but may on occasion run the ball or block defenders on running plays. 
+
+
+Defensive Linemen
+Abbreviation DL\n
+Side Defense\n
+
+These larger players line up opposite to the offensive lineman on the line of scrimmage.There are normally three or four defensive linemen on the field, and they tend to put one or both hands on the ground before the play.Unlike on the offensive line, where the outside players are the tackle, the defensive linemen in the middle are called defensive tackles (DTs). The defensive linemen on the outside are called defensive ends (DEs).
+
+
+Linebacker 
+Abbreviation LB\n
+Side Defense\n
+
+Linebackers play behind the defensive line. If the defense has three defensive linemen, there are usually four linebackers. If there are four defensive linemen, there are usually three linebackers. Linebackers are usually smaller and faster than defensive linemen.
+
+
+
+
+
+Cornerback 
+Abbreviation CB\n
+Side Defense\n
+
+Cornerbacks and safeties are called the ‘‘defensive backfield,’’ or ‘‘defensive backs,’’ because they play in the back of the defense. Cornerbacks are lined up on the outside of the defense and are usually tasked with covering the offense’’s best receivers.
+
+
+Safety 
+Abbreviation S\n
+Side Defense\n
+
+Safeties are the last line of defense and there are usually two of them. They usually play all the way in the back of the defense and are responsible for making sure no offensive player gets past everyone else on the defense. Safeties are usually not as fast as cornerbacks, but they’’re often better at reading and patrolling larger areas of the field.
+
+
+Kicker 
+Abbreviation K\n
+Side Special Teams\n
+Kickers kick the ball off the ground on a kickoff, field goal and point after touchdown (PAT), also called the ‘‘extra point.’’ Usually they make the PAT, unless you’’re Jake Oldroyd.
+
+Punter 
+Abbreviation P\n
+Side Special Teams\n
+On fourth down, an offense sometimes won’’t try to get the first down, because if they fail, the other team will get the ball right where the offense was stopped. Instead, the coach may call on the punter. This player can punt the ball to the other team, hanging it high in the air to try to keep the opposing team farther away from the end zone.
+
+Kick Returner 
+Abbreviation KR\n
+Side Special Teams\n
+When the kicker boots a kickoff, the kick returner catches it and runs toward the opposing team’’s end zone. These players are usually speedy and are often also wide receivers or defensive backs.
+
+Punt Returner 
+Abbreviation PR\n
+Side Special Teams\n
+The punt returner is meant to catch the ball after the opposing team’’s kicker punts it across the field. This player may call for a ‘‘fair catch,’’ which means that they will not run forward with the ball because the other team’’s players are going to tackle them right away.
+
+The punt returner can choose to run forward with the ball; like a kick returner, the PR runs toward the other team’’s end zone. Punt returners are usually as fast as kick returners and will typically play multiple positions on a team (wide receivers or defensive backs are common examples).
+
+Long Snapper
+Abbreviation LS\n
+Side Special Teams\n
+The long snapper is a special kind of center who snaps the ball on punts and kicks. They snap the ball between their legs to the punter on a punt or to the player holding the ball for the kicker on field goals and PATs. They usually are required to throw the ball far backwards, which is where the term ‘‘long’’ comes from, and the action of throwing the ball backwards is called a ‘‘snap’’, hence someone who performs a ‘‘snap’’ is known as a ‘‘snapper’’.
+
+
+
+TERMS 
+
+Line of Scrimmage 
+The imaginary line where the ball is placed before the play starts. On a rushing play, it’’s determined based on where the last ball carrier landed with the ball. On a passing play, it’’s where the receiver went down after catching the ball. If the pass was not caught, the line of scrimmage remains at the same field position.
+
+
+
+
+
+
+
+
+
+
+
+

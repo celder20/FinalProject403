@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport Website</title>
+    <!--Style sheets-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      rel="stylesheet" href="{% static 'css/style.css' %}"/>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+    <!--Here's my sidebar. Isn't it nice? I'm sure you are too.-->
+    <div class="sidenav">
+      <img
+        class="profilePic"
+        src="https://marriott.byu.edu/upload/news/images/2108-anderson_greg_2021-web.jpg"
+        width="120"
+        style="border-radius: 50%"
+      />
+      <br /><br />
+      <!--<a href=" ">Home</a>-->
+      <a href="{% url 'index' %} ">SPORTS LIST</a>
+    </div>
+
+    <!-- Page content -->
+
+    <div class="pageContent">
+      <div
+        class="pageTitle"
+        style="
+          background-image: url(https://thumbs.dreamstime.com/b/20-30-yard-line-american-football-field-20540007.jpg);
+          background-position: center;
+        "
+      >
+        <h1>Football Lingo</h1>
+      </div>
+
+      {% block content%}
+      <div class="main">
+        <h5>THIS IS THE BASE PAGE</h5>
+      </div>
+      {% endblock %}
+    </div>
+  </body>
+</html>

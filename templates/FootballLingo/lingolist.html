@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{% block content%}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-container">
+<br>
+<h3>This is the list view for all football lingo!</h3>
+
+<h4>Input a lingo term and the description for it below</h4>
+
+<form method="POST" action={% url 'addTerm' %}>
+  {% csrf_token %}
+  <br />
+  &nbsp;&nbsp; <label for="term">Term:</label><br>
+  &nbsp;&nbsp; <input class = 'input' type="text" name="term" id="term">
+  <br><br>
+
+  &nbsp;&nbsp; <label for="description">Description:</label><br>
+  &nbsp;&nbsp; <input class = 'input' type="text" name="description" id="description">
+  <br><br>
+
+  &nbsp;&nbsp; <input class="button" action type="submit" value="Add" />
+</form>
+<br>
+<h4>Term List</h4>
+<ul>
+  {% for item in data %}
+  <li>
+    <div class = 'input' type="text">{{ item.term }}</div>
+    <div class = 'input' type="text">{{ item.description }}</div>
+    <div class = 'input2' value="{{ item.description }}" width="50%" />
+    <input hidden value="{{ item.lingoid }}">
+  </li>
+  <br>
+  <a class="button" href="{% url 'showTerm' lingoid=item.lingoid %}">Update</a>
+  <a class="button" href="{% url 'deleteTerm' lingoid=item.lingoid %}">Delete</a>
+  <br>
+  <br>
+  {% endfor %}
+</ul>
+{% endblock %}
